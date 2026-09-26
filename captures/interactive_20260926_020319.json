@@ -1,0 +1,38 @@
+{
+ "clockwise": {
+  "pass": true,
+  "detail": "30 reports, total +56 (want > +20)"
+ },
+ "counter_clockwise": {
+  "pass": true,
+  "detail": "31 reports, total -63 (want < -20)"
+ },
+ "press": {
+  "pass": true,
+  "detail": "3 presses (want 3)"
+ },
+ "press_and_turn": {
+  "pass": true,
+  "detail": "23 reports with button held and rotation (want at least 1)"
+ },
+ "led_full": {
+  "pass": true,
+  "detail": "Is the LED on at full brightness?"
+ },
+ "led_dim": {
+  "pass": true,
+  "detail": "Is the LED on but clearly dimmer?"
+ },
+ "led_off": {
+  "pass": true,
+  "detail": "Is the LED off?"
+ },
+ "pulse": {
+  "pass": true,
+  "detail": "Is the LED pulsing (fading up and down)?"
+ },
+ "pulse_off": {
+  "pass": true,
+  "detail": "Has the LED stopped pulsing and gone off?"
+ }
+}
