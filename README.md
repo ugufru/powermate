@@ -28,7 +28,7 @@ python3 -m venv .venv
 ```
 
 Only one process can read the knob at a time: hidapi opens it exclusively,
-which also stops the knob moving the macOS pointer while it is open.
+which also stops the knob moving the macOS pointer or clicking while it is open.
 `led`, `pulse` and `off` only use libusb, so they work while `watch` runs.
 `info` reads the report descriptor through hidapi, so it does not.
 
@@ -48,5 +48,4 @@ real device and skips when it is unplugged. Leave the knob alone while it
 runs: one test expects the idle device to send nothing.
 
 The interactive test saves its results to `captures/interactive_*.json`.
-Pressing the knob is also a mouse click on macOS, so park the pointer
-somewhere harmless first.
+It holds the device open throughout, so knob presses do not click anything.

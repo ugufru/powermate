@@ -190,8 +190,8 @@ by eye. What each speed and table actually does is issue #11.
 - macOS's HID driver owns interface 0 and treats the knob as a mouse:
   turning it **moves the pointer** (confirmed). While a program holds the
   exclusive hidapi open (for example `python -m powermate watch`), the
-  pointer stops moving (confirmed by the user). Presumably knob presses stop
-  acting as clicks too, but that was not checked.
+  pointer stops moving and knob presses stop acting as mouse clicks (both
+  confirmed by the user).
 - **Input:** use hidapi. It opens the device **exclusively**: a second
   process trying to open it gets `OSError: open failed`.
 - **LED:** use libusb (pyusb with the Homebrew `libusb-1.0.dylib`). Vendor
