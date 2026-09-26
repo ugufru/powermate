@@ -1,4 +1,3 @@
-{"rank": 1, "id": 12, "why": "Cheapest remaining unknown: one run of watch while turning the knob answers it, and it decides whether the library needs a seize option.", "added": "2026-09-26"}
-{"rank": 2, "id": 6, "why": "The last protocol surface not explored (unlisted commands, GET requests). It could reveal features the docs are missing, so it goes before refining known ones.", "added": "2026-09-26"}
-{"rank": 3, "id": 11, "why": "Turns the pulse table in docs/USB.md from 'accepted' into measured behaviour. Needs the camera and the user's permission, so it is scheduled deliberately.", "added": "2026-09-26"}
-{"rank": 4, "id": 10, "why": "Precision on figures that are already good enough to use (about 100 counts per turn); lowest value.", "added": "2026-09-26"}
+{"rank": 1, "id": 6, "why": "The last protocol surface not explored (unlisted commands, GET requests). It could reveal features the docs are missing, so it goes before refining known ones.", "added": "2026-09-26"}
+{"rank": 2, "id": 11, "why": "Turns the pulse table in docs/USB.md from 'accepted' into measured behaviour. Needs the camera and the user's permission, so it is scheduled deliberately.", "added": "2026-09-26"}
+{"rank": 3, "id": 10, "why": "Precision on figures that are already good enough to use (about 100 counts per turn); lowest value.", "added": "2026-09-26"}

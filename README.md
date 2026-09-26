@@ -27,7 +27,8 @@ python3 -m venv .venv
 .venv/bin/python -m powermate off                 # stop pulsing, LED off
 ```
 
-Only one process can read the knob at a time: hidapi opens it exclusively.
+Only one process can read the knob at a time: hidapi opens it exclusively,
+which also stops the knob moving the macOS pointer while it is open.
 `led`, `pulse` and `off` only use libusb, so they work while `watch` runs.
 `info` reads the report descriptor through hidapi, so it does not.
 
