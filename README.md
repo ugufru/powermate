@@ -10,10 +10,12 @@ PowerMate (USB `077d:0410`) on macOS.
 
 ## Setup
 
-Needs Homebrew's libusb (`brew install libusb`).
+Needs Homebrew's libusb and Python 3.10 or later
+(`brew install libusb python`). macOS's own `/usr/bin/python3` is 3.9, which
+is too old for the pinned pytest.
 
 ```sh
-python3 -m venv .venv
+/opt/homebrew/bin/python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 ```
 
